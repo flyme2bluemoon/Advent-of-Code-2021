@@ -3,3 +3,5 @@ main
 *.o
 .DS_Store
 .vscode/
+test.txt
+*.bak
