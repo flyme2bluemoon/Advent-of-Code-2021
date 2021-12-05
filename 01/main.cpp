@@ -2,7 +2,8 @@
 #include <vector>
 using namespace std;
 
-int part_one(vector<int> inp, int n) {
+int part_one(vector<int> inp, int n)
+{
     int answer = 0;
     for (int i = 1; i < n; i++) {
         if (inp[i] > inp[i - 1]) {
@@ -13,7 +14,8 @@ int part_one(vector<int> inp, int n) {
     return answer;
 }
 
-int part_two(vector<int> inp, int n) {
+int part_two(vector<int> inp, int n)
+{
     int answer = 0;
     for (int i = 3; i < n; i++) {
         if (inp[i] > inp[i - 3]) {
