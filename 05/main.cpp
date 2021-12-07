@@ -40,7 +40,7 @@ pair<int, int> get_max(vector< pair< pair<int,int>, pair<int, int> > > vents, in
         if (vents[i].first.second > y) {
             y = vents[i].first.second;
         }
-        if (vents[i].second.second > 7) {
+        if (vents[i].second.second > y) {
             y = vents[i].second.second;
         }
     }
