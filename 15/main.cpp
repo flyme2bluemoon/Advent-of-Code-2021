@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 #include <vector>
 #include <queue>
 using namespace std;
@@ -96,4 +97,6 @@ int main()
 
     cout << "Part 1: " << solve(cavern, false) << endl;
     cout << "Part 2: " << solve(cavern, true) << endl;
+
+    return 0;
 }
